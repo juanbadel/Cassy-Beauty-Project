@@ -1,0 +1,37 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background: transparent;
+    transition: bg 0.3s ease-in-out;
+}
+
+/* Navbar opaque quand on scrolle */
+.navbar.scrolled {
+    background: rgb(250, 249, 249); /* Plus sombre */
+}
+
+/* Style du texte du carousel */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Hauteur des images du carousel */
+.carousel-item img {
+    height: 100vh; /* Plein écran */
+    object-fit: cover;
+}
+
+.navbar-brand {
+font-size: 28px; /* Taille du texte */
+font-family: "Dancing Script", sans-serif; /* Police */
+font-weight: bold; /* Mettre en gras */
+color: rgb(1, 0, 0) !important; /* Couleur du texte */
+text-transform: uppercase; /* Texte en majuscules */
+}
+.carousel-item img {
+opacity: 0.8; /* 70% de visibilité */
+}
